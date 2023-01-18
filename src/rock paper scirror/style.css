@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: gray;
+}
+/* button{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+} */
+.heading{
+    color: rgb(8, 57, 57);
+}
+.button{
+    width: 85px;
+    background-color: red;
+}
+.button-2{
+    width: 85px;
+    height: 80px;
+    border-radius: 20px;
+}
+.container{
+    background-color: rgb(206, 228, 221);
+    height: 600px;
+    width: 500px;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+}
+.choices{
+    /* background-color: aqua; */
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.fight{
+    display: flex;
+    justify-content: space-around;
+}

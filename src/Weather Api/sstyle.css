@@ -1,0 +1,25 @@
+body{
+    display: grid;
+    justify-content: center;
+    background-image: url(./Z4CD0Ic-weather-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.container{
+    height: 500px;
+    background-color: rgb(7, 7, 7,0.3);
+    width: 500px;
+    margin-top: 50px;
+    box-shadow: 10px 5px 5px red;
+    
+}
+.temp{
+    margin-top: 40px;
+}
+.main{
+    margin-top: 60px;
+}
+input{
+    border-radius: 5px;
+}

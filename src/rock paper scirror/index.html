@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Rock Paper Scissor</h1>
+        <div class="choices">
+            
+            <button class="button" value="rock">
+                <img 
+                class="button-2"
+                src="./images/rock-removebg-preview.png" alt="">
+            </button>
+
+            <button class="button" value="paper">
+                <img 
+                class="button-2"
+                src="./images/paper-removebg-preview.png" alt="">
+            </button>
+            
+            <button class="button" value="scissor">
+                <img 
+                class="button-2"
+                src="./images/scissor-removebg-preview.png" alt="">
+            </button>
+
+        </div>
+        <div><h2>Your Score:-</h2><span id="score">0</span></div>
+        <section class="fight">
+            <div class="human">
+                <img 
+                class="button-2"
+                src="./images/human emoji.png" alt="">
+                <h2 id="human-choice">YOU</h2>
+            </div>
+            <div class="human">
+                <h1 
+                id="response"
+                >START</h1>
+            </div>
+            <div class="human">
+                <img 
+                class="button-2"
+                src="./images/robot.png" alt="">
+                <h2 id="computer-choice">BOT</h2>
+            </div>
+        </section>
+        <button 
+            class="button-2"
+            id="restart"
+            style="background-color: black; color: white;"
+            >
+            Restart
+        </button><br><br>
+        <button><a href="../Main Portfolio/index.html"
+            style="text-decoration: none;">HOME</a></button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

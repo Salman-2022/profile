@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tip calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <section class="heading">
+        <h1>tip calculator</h1>
+        </section>
+        <div class="title">Bill Amount</div>
+        <span>$</span>
+        <input 
+        onkeyup="calculateBill()"
+        id="billAmount"
+        class="value-input"
+        type="number"
+        placeholder="0.00">
+
+        <div class="title">Tip Percentage</div>
+        <span>%</span>
+        <input 
+        onkeyup="calculateBill()"
+        class="value-input"
+        id="tipPercentage"
+        type="number"
+        placeholder="0.00">
+        <section style="display: flex; justify-content: space-between;">
+            <section>
+                <section>
+                    <div class="title">no. of people</div>
+                </section>
+                <section>
+                <button id="add">+</button>
+                <span class="no"
+                id="noOfPeople">1</span>
+                <button id="sub">-</button>
+                </section>
+            </section>
+            <section>
+                <div class="title">Per person</div>
+                <span id="finalAmount">0.00</span>
+            </section>
+            
+        </section><br><br><br>
+        <center><button><a href="../Main Portfolio/index.html" style="text-decoration: none;">HOME</a></button></center>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
